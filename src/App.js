@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Button from '@material-ui/core/Button';
+import AddressForm from './AddressForm.js';
 import logo from './logo.svg';
 import './App.css';
 
@@ -52,7 +54,8 @@ class App extends Component {
     return (
       
       <div className="App">
-        
+        <AddressForm />
+{/*         
         <header className="App-header">
 
           <nav class="navbar navbar-dark bg-dark">
@@ -85,9 +88,12 @@ class App extends Component {
         </label>
         <input type="submit" value="Enviar" />
       </form>
+      <Button variant="contained" color="primary">
+      Olá Mundo
+    </Button>   
+    
+        </header>      */}
 
-
-        </header>
       </div>
     );
   }
